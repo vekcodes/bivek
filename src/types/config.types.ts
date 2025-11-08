@@ -13,6 +13,8 @@ import {
 } from "@once-ui-system/core";
 import { NextFontWithVariable } from "next/dist/compiled/@next/font";
 
+type SchemeOption = Schemes | "custom";
+
 /**
  * Display configuration for UI elements.
  */
@@ -48,8 +50,8 @@ export type FontsConfig = {
 export type StyleConfig = {
   theme: Theme;
   neutral: NeutralColor;
-  brand: Schemes;
-  accent: Schemes;
+  brand: SchemeOption;
+  accent: SchemeOption;
   solid: SolidType;
   solidStyle: SolidStyle;
   border: BorderStyle;

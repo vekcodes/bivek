@@ -14,7 +14,7 @@ const person: Person = {
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to {person.firstName}&rsquo;s Newsletter</>,
   description: <>My weekly newsletter about Automating and GTM engineering</>,
 };
 
@@ -42,14 +42,14 @@ const home: Home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `${person.name}\u2019s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Building Growth Engine, Reducing CAC</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Bivek's</strong>{" "}
+        <strong className="ml-4">Bivek&rsquo;s</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -60,7 +60,7 @@ const home: Home = {
   },
   subline: (
     <>
-      Hi, I'm Bivek Raj Shakya, GTM engineer from Nepal 🇳🇵, I craft outbound systems using clay, n8n, etc.
+      Hi, I&rsquo;m Bivek Raj Shakya, GTM engineer from Nepal 🇳🇵, I craft outbound systems using clay, n8n, etc.
     </>
   ),
 };
