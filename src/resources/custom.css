@@ -1,0 +1,18 @@
+:root {
+  /* Custom brand palette built around #FF9060 */
+  --scheme-brand-100: #321105;
+  --scheme-brand-200: #541d08;
+  --scheme-brand-300: #7a2a0c;
+  --scheme-brand-400: #a03614;
+  --scheme-brand-500: #c64424;
+  --scheme-brand-600: #ff9060;
+  --scheme-brand-700: #ffad87;
+  --scheme-brand-800: #ffc7ab;
+  --scheme-brand-900: #ffe1ce;
+  --scheme-brand-1000: #ffe9da;
+  --scheme-brand-1100: #fff1e7;
+  --scheme-brand-1200: #fff8f2;
+  --scheme-brand-600-10: rgba(255, 144, 96, 0.1);
+  --scheme-brand-600-30: rgba(255, 144, 96, 0.3);
+  --scheme-brand-600-50: rgba(255, 144, 96, 0.5);
+}

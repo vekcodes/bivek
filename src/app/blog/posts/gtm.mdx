@@ -1,0 +1,126 @@
+---
+title: "What Is GTM Engineering?"
+summary: "A practical, non-fluffy explainer of GTM Engineering—what it is, how GTM Engineers work, and how to build a scalable revenue engine using automation, data, and integrated workflows."
+publishedAt: "2025-11-08"
+tag: "GTM Engineering"
+---
+
+## TL;DR
+
+**GTM Engineering** (go-to-market engineering) treats revenue growth as a technical discipline. GTM Engineers design and operate the systems, data pipelines, and automations that connect marketing, sales, product, and customer success—so you can scale a **repeatable revenue engine** instead of scaling headcount.
+
+---
+
+## What is GTM Engineering?
+
+**GTM Engineering** is the discipline of **designing, integrating, and automating** the technology and workflows that power your go-to-market motion. Think of it as **RevOps + data + automation + product thinking**—focused on revenue execution, not just tooling administration.
+
+GTM Engineers create the connective tissue between your **CRM, marketing automation, data warehouse, product analytics, support, and billing** so that leads, accounts, usage signals, and revenue data move cleanly through the funnel.
+
+---
+
+## Why it matters (and when to invest)
+
+- **Scale efficiently:** Replace manual hand-offs with automated workflows and service-level alerts.
+- **Cleaner data, better decisions:** Enrichment, normalization, and routing at ingest → higher conversion and faster cycles.
+- **Faster launches:** Integrated stacks reduce friction between product, marketing, and sales.
+- **Measurable revenue impact:** Consistent dashboards for pipeline velocity, conversion, CAC/LTV, and expansion.
+
+---
+
+## Core responsibilities of a GTM Engineer
+
+- **Architecture & integration**: Own the GTM systems map (CRM, MAP, CDP/DWH, event pipelines, attribution, support/billing).
+- **Automation**: Lead scoring, routing, lifecycle stages, sales triggers, renewal/expansion plays.
+- **Data quality**: Standardize fields, dedupe, enrich, and govern identity resolution across tools.
+- **Observability**: Build reliable reporting for funnel metrics and revenue KPIs.
+- **Experimentation**: Ship and iterate GTM workflows with proper measurement and rollbacks.
+- **Enablement**: Translate business requirements into reliable systems, docs, and runbooks.
+
+---
+
+## Example “day-1 to day-90” roadmap
+
+### Days 1–30: Assess & stabilize
+- Inventory tools, objects, fields, and key workflows.
+- Map the **lead → revenue** lifecycle and current failure points.
+- Patch critical breakages (routing, duplicate logic, broken syncs).
+
+### Days 31–60: Automate the basics
+- Standardize **lifecycle stages** and **status transitions**.
+- Implement lead/account **enrichment** and **scoring**.
+- Stand up **source-of-truth dashboards** (volume, conversion, velocity).
+
+### Days 61–90: Accelerate & prove ROI
+- Add **product-usage triggers** to outbound and CS plays.
+- Automate **renewal and expansion** workflows.
+- Run A/B tests on routing/SLAs; report impact on **speed-to-first-touch** and **win rate**.
+
+---
+
+## A simple maturity model
+
+| Level | Focus | What changes | Proof you’re ready to level up |
+|---|---|---|---|
+| 0. Ad-hoc | Manual ops & point tools | Fire-fighting; no single source of truth | Missed SLAs, inconsistent reporting |
+| 1. Connected | Core integrations stable | Standardized fields & lifecycle | Trustworthy funnel dashboards |
+| 2. Automated | Rules & triggers | Scoring, routing, alerts, renewals | Faster speed-to-lead; higher conversion |
+| 3. Intelligent | Usage & AI in the loop | Behavioral signals drive plays | Expansion/retention improves predictably |
+
+---
+
+## KPIs GTM Engineering should own (or co-own)
+
+- **Speed-to-lead / first response time**
+- **MQL → SQL → Opportunity conversion**
+- **Pipeline velocity** (days and stage-to-stage)
+- **Data health** (duplicate rate, enrichment coverage, invalid/incomplete %)
+- **Attribution completeness** (touch coverage, model stability)
+- **Revenue efficiency** (CAC payback, LTV/CAC, net revenue retention)
+
+---
+
+## Common pitfalls (and how to avoid them)
+
+- **Tool-sprawl without ownership** → Start with a systems map and RACI.
+- **Automating bad processes** → Fix lifecycle definitions before adding triggers.
+- **Dirty data** → Invest in enrichment, standardization, and identity resolution early.
+- **No change control** → Version your automations and fields; keep runbooks.
+- **Over-customization in CRM** → Prefer warehouse-centric models and light CRM surfaces.
+
+---
+
+## Hiring (or growing) a GTM Engineer
+
+Look for **hybrid** profiles:
+- Fluent with **APIs, webhooks, ETL/ELT**, and workflow tooling
+- Understand **CRM data models**, marketing ops, product analytics
+- Comfortable with **SQL**, events/track, and warehouse-first reporting
+- Communicate clearly with sales, marketing, and CS; ship incrementally
+
+---
+
+## Stack patterns that scale
+
+- **Warehouse-first analytics** (dbt or equivalent), with reverse-ETL pushing cleansed objects to CRM/MAP
+- **Event collection** (CDP or native pipelines) feeding product-led signals into lifecycle automation
+- **Thin CRM**: keep business logic in workflows and models, not scattered validation rules
+- **Observability**: adoption dashboards for reps/CSMs + data quality monitors
+
+---
+
+## Getting started: a checklist
+
+- Map the lifecycle and identify every manual hand-off.
+- Define lifecycle stages and acceptance criteria (lead, MQL, SQL, SAL, Opp, Won).
+- Normalize fields (country, industry, employee ranges, domains).
+- Implement enrichment + scoring; wire **routing + SLA alerts**.
+- Publish a **single source of truth** dashboard and agree on KPI owners.
+- Add **product-usage triggers** to outreach and CS plays.
+- Ship a weekly “**GTM Engineering Change Log**” for transparency.
+
+---
+
+## Final word
+
+**GTM Engineering** turns growth goals into **reliable systems**. If you want a scalable, predictable **revenue engine**, treat GTM like software: design it, instrument it, automate it, and iterate.
